@@ -35,7 +35,7 @@ The dataset differed widely in contrast and brightness.
 To combat this, I decided to use histogram equalization.
 I compared regular equalization and CLAHE, an adaptive method.
 I also used both the LAB and YUY colorspace in my tests:
-![Result of equalizing different images](writeup_images/equalization_result.png)
+![Result of equalizing different images](writeup_images/equalization_results.png)
 
 All 4 combinations clearly improve the input.
 Between YUV and LAB there is not much difference which is what I expected.
